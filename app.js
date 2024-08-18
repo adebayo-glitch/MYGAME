@@ -48,7 +48,11 @@ const game = new Game("Captain A");
 game.start_attack()
 game.play_around()
 
-document.getElementById("attack").addEventListener("click", () => {});
+document.getElementById("attack").addEventListener("click", () => {
+    alert("The Captain and Alien has started attack")
+});
 
-document.getElementById("retreat").addEventListener("click", () => {});
+document.getElementById("retreat").addEventListener("click", () => {
+    alert("The alien has retreated")
+});
 
