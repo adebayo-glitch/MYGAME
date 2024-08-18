@@ -29,3 +29,9 @@ class Game {
     }
 }
 
+
+const game = new Game("Captain A");
+
+
+
+
