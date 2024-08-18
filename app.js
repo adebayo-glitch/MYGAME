@@ -15,6 +15,10 @@ class Captain {
         this.health = health;
     }
 
+    captain_attack() {
+ 
+    }
+
 }
 
 class Game {
