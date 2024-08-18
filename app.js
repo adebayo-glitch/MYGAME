@@ -14,3 +14,9 @@ class Captain {
 
 }
 
+class Game {
+    constructor(CaptainName) {
+       
+    }
+}
+
