@@ -33,5 +33,7 @@ class Game {
 const game = new Game("Captain A");
 
 
+document.getElementById("attack").addEventListener("click", () => {});
 
+document.getElementById("retreat").addEventListener("click", () => {});
 
