@@ -5,3 +5,12 @@ class AlienShip {
     }
 
 }
+
+class Captain {
+    constructor(name, health) {
+        this.name = name;
+        this.health = health;
+    }
+
+}
+
