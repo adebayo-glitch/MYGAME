@@ -4,6 +4,9 @@ class AlienShip {
         this.health = health;
     }
 
+    alien_attack() {
+       
+    }
 }
 
 class Captain {
@@ -29,9 +32,7 @@ class Game {
     }
 }
 
-
 const game = new Game("Captain A");
-
 
 document.getElementById("attack").addEventListener("click", () => {});
 
