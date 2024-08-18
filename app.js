@@ -5,7 +5,7 @@ class AlienShip {
     }
 
     alien_attack() {
-       
+       alert("The alien has attack")
     }
 }
 
@@ -16,7 +16,7 @@ class Captain {
     }
 
     captain_attack() {
- 
+        alert("The captain has attack")
     }
 
 }
@@ -34,9 +34,19 @@ class Game {
         ];
         this.currentAlienShip = this.alienShips[0];
     }
+
+    start_attack() {
+        alert("The attack has started")
+    }
+
+    play_around() {
+        alert("Play game around")
+    }
 }
 
 const game = new Game("Captain A");
+game.start_attack()
+game.play_around()
 
 document.getElementById("attack").addEventListener("click", () => {});
 
